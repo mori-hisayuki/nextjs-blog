@@ -22,3 +22,4 @@ yarn create next-app --example blog-starter blog-starter-app
 [A statically generated blog example using Next.js, Markdown, and TypeScript](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) 
 [エンジニアなら自分でブログを作れ！① 導入編](https://zenn.dev/miketako3/articles/9b2b1a9ec13901) 
 [エンジニアなら自分でブログを作れ！②テンプレ理解編](https://zenn.dev/miketako3/articles/bfdc1b09ba8ed3)
+[zennのmarkdown関連のパッケージを追加](https://github.com/miketako3/blog-example/commit/eaecde48625d71520348e2c3b99f225fe1951917)
