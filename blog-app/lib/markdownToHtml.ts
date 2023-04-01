@@ -1,7 +1,8 @@
-import { remark } from 'remark'
-import html from 'remark-html'
+import m2h from "zenn-markdown-html";
 
-export default async function markdownToHtml(markdown: string) {
-  const result = await remark().use(html).process(markdown)
-  return result.toString()
-}
+/**
+ * markdownからHTMLに変換して出力する関数
+ * @param markdown
+ * @returns
+ */
+export const markdownToHtml = async (markdown: string): Promise<string> => m2h(markdown)
