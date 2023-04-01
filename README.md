@@ -11,9 +11,15 @@
 | ブログ機能   | NextJS               |
 | MarkdownのHTML変換 |[zenn-markdown-html](https://github.com/zenn-dev/zenn-editor/tree/main/packages/zenn-markdown-html)|
 
-# Blog の作成コマンド
+# 操作方法
+## 初期作成
 ```
-yarn create next-app --example blog-starter blog-starter-app
+yarn create next-app --example blog-starter blog-app
+```
+## localServer起動
+```
+cd blog-app
+yarn dev
 ```
 
 # 参照ページ
