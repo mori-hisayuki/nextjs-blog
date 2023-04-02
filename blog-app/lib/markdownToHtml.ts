@@ -1,4 +1,4 @@
-import m2h from "zenn-markdown-html";
+import m2h from 'zenn-markdown-html'
 
 /**
  * markdownからHTMLに変換して出力する関数

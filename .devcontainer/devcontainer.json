@@ -6,22 +6,22 @@
   "workspaceFolder": "/home/vscode/blog",
   // remotecontainer内でのextension
   "extensions": [
-    "vscodevim.vim",                          // Vim
-    "pkief.material-icon-theme",              // Material Icon Thema
-    "formulahendry.auto-rename-tag",          // Auto Rename Tag
-    "oderwat.indent-rainbow",                 // indent-rainbow
-    "EditorConfig.EditorConfig",              // EditorConfig for VS Code
-    "eamodio.gitlens",                        // GitLens — Git supercharged
-    "mhutchie.git-graph",                     // Git Graph
-    "github.copilot",                         // GitHub Copilot
-    "vector-of-bool.gitflow",                 // gitflow
-    "ionutvmi.path-autocomplete",             // Path Autocomplete
-    "christian-kohler.path-intellisense",     // Path Intellisense
-    "streetsidesoftware.code-spell-checker",  // Code Spell Checker
-    "dbaeumer.vscode-eslint",                 // ESLint
-    "esbenp.prettier-vscode",                 // Prettier
-    "rangav.vscode-thunder-client",           // Thunder Client
-    "ritwickdey.liveserver",                  // Live Server
+    "vscodevim.vim", // Vim
+    "pkief.material-icon-theme", // Material Icon Thema
+    "formulahendry.auto-rename-tag", // Auto Rename Tag
+    "oderwat.indent-rainbow", // indent-rainbow
+    "EditorConfig.EditorConfig", // EditorConfig for VS Code
+    "eamodio.gitlens", // GitLens — Git supercharged
+    "mhutchie.git-graph", // Git Graph
+    "github.copilot", // GitHub Copilot
+    "vector-of-bool.gitflow", // gitflow
+    "ionutvmi.path-autocomplete", // Path Autocomplete
+    "christian-kohler.path-intellisense", // Path Intellisense
+    "streetsidesoftware.code-spell-checker", // Code Spell Checker
+    "dbaeumer.vscode-eslint", // ESLint
+    "esbenp.prettier-vscode", // Prettier
+    "rangav.vscode-thunder-client", // Thunder Client
+    "ritwickdey.liveserver" // Live Server
   ],
   "remoteUser": "vscode"
 }
