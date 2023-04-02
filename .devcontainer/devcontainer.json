@@ -19,6 +19,7 @@
     "christian-kohler.path-intellisense",     // Path Intellisense
     "streetsidesoftware.code-spell-checker",  // Code Spell Checker
     "dbaeumer.vscode-eslint",                 // ESLint
+    "esbenp.prettier-vscode",                 // Prettier
     "rangav.vscode-thunder-client",           // Thunder Client
     "ritwickdey.liveserver",                  // Live Server
   ],
