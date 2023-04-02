@@ -37,7 +37,7 @@ rules:
   # オブジェクトへのアクセスを括弧ではなくドットにする(https://eslint.org/docs/latest/rules/dot-notation)
   dot-notation: 'error'
   # 可能な限り === を仕様する
-  eqeqeq: ["error", "always", {"null": "ignore"}]
+  eqeqeq: ['error', 'always', { 'null': 'ignore' }]
   # elseブロックの中でifブロックのみにしない(else ifを使う)
   no-lonely-if: 'error'
   # 再代入されないならconstを使う
