@@ -2,7 +2,6 @@
 勉強がてら現行のブログを移行できたらなくらいのモチベで作る
 
 # 使用技術
-
 | 種別                  | 技術                                                                                                |
 | --------------------- | --------------------------------------------------------------------------------------------------- |
 | Code 管理             | Github                                                                                              |
@@ -10,6 +9,7 @@
 | 開発環境              | Docker(devcontainer)                                                                                |
 | ホスティング          | Cloudflare Pages                                                                                    |
 | ブログ機能            | NextJS                                                                                              |
+| UI Components         | [Chakra UI](https://chakra-ui.com/)                                                                 |
 | Markdown の HTML 変換 | [zenn-markdown-html](https://github.com/zenn-dev/zenn-editor/tree/main/packages/zenn-markdown-html) |
 
 # Blog の作成コマンド

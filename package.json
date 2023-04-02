@@ -5,11 +5,15 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint && yarn format",
-    "format": "prettier --check --ignore-unknown \"./**/*.{html,ts,tsx,css,md,json}\" ",
-    "format:fix": "prettier --write --ignore-unknown \"./**/*.{html,ts,tsx,css,md,json}\" "
+    "lint": "next lint && yarn fmt",
+    "fmt": "prettier --check --ignore-unknown \"./**/*.{html,ts,tsx,css,md,json}\" ",
+    "fmt:fix": "prettier --write --ignore-unknown \"./**/*.{html,ts,tsx,css,md,json}\" "
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.5.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "framer-motion": "^10.10.0",
     "next": "^13.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
