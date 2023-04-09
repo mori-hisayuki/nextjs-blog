@@ -1,3 +1,5 @@
 README.md
 .devcontainer/.extensions/*
+.devcontainer/devcontainer.json
 .next
+blog-app
