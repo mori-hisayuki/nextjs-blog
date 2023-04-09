@@ -9,8 +9,10 @@
 | 開発環境              | Docker(devcontainer)                                                                                |
 | ホスティング          | Cloudflare Pages                                                                                    |
 | ブログ機能            | NextJS                                                                                              |
-| UI Components         | [Chakra UI](https://chakra-ui.com/)                                                                 |
+ UI Components         | [Chakra UI](https://chakra-ui.com/)                                                                 |
 | Markdown の HTML 変換 | [zenn-markdown-html](https://github.com/zenn-dev/zenn-editor/tree/main/packages/zenn-markdown-html) |
+|Formatter & linter| Prettier + ESLint|
+
 
 # Blog の作成コマンド
 ```
