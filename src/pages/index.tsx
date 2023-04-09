@@ -1,3 +1,5 @@
+import { ChakraProvider, Container } from '@chakra-ui/react'
+import { MainLayout } from '../components/MainLayout'
 import { Post } from '../interface/post'
 
 type HomeProps = {
@@ -5,7 +7,13 @@ type HomeProps = {
 }
 
 const Home = ({ posts }: HomeProps) => {
-  return <>Hallo World</>
+  return (
+    <ChakraProvider>
+      <MainLayout>
+        <Container maxWidth="container.md">Hallo World</Container>
+      </MainLayout>
+    </ChakraProvider>
+  )
 }
 
 export default Home
