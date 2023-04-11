@@ -5,9 +5,10 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint && yarn fmt",
-    "fmt": "prettier --check --ignore-unknown \"./**/*.{html,ts,tsx,css,md,json}\" ",
-    "fmt:fix": "prettier --write --ignore-unknown \"./**/*.{html,ts,tsx,css,md,json}\" "
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "fmt": "yarn lint && prettier --check --ignore-unknown \"./**/*.{html,ts,tsx,css,md,json}\" ",
+    "fmt:fix": "yarn lint:fix && prettier --write --ignore-unknown \"./**/*.{html,ts,tsx,css,md,json}\" "
   },
   "dependencies": {
     "@chakra-ui/react": "^2.5.5",
@@ -28,6 +29,8 @@
     "eslint": "^8.37.0",
     "eslint-config-next": "^13.2.4",
     "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-unused-imports": "^2.0.0",
     "prettier": "^2.8.7"
   }
 }
