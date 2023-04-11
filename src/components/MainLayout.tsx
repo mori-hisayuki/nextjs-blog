@@ -1,4 +1,4 @@
-import { Center, Flex, VStack } from '@chakra-ui/react'
+import { Center, VStack } from '@chakra-ui/react'
 import { ChildrenProps } from '../@types/react'
 import { Header } from './Header'
 
