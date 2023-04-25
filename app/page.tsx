@@ -1,6 +1,6 @@
-import { Container } from '@chakra-ui/react'
-import { MainLayout } from '../components/MainLayout'
-import { Post } from '../interface/post'
+import { Container } from '../src/components/chakra-ui'
+import { MainLayout } from '../src/components/MainLayout'
+import { Post } from '../src/interface/post'
 
 type HomeProps = {
   posts: Array<Post>
