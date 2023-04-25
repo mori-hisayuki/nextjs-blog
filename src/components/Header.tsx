@@ -1,4 +1,4 @@
-import { Flex, Heading, Link, Text } from '@chakra-ui/react'
+import { Flex, Heading, Link, Text } from './chakra-ui'
 
 export const Header = () => (
   <Flex
